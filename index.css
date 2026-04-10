@@ -1,0 +1,19 @@
+// Sample bookings used across user, company and admin views
+export const bookings = [
+  { id: 'BK10231', userId: 'u1', carId: 'car1', companyId: 'c1', pickupBranchId: 'b1', dropoffBranchId: 'b3', pickupDate: '2026-04-12', returnDate: '2026-04-16', status: 'Upcoming', total: 260, addons: ['GPS'], promo: 'SPRING10', insurance: 'Basic' },
+  { id: 'BK10232', userId: 'u1', carId: 'car4', companyId: 'c6', pickupBranchId: 'b19', dropoffBranchId: 'b19', pickupDate: '2026-03-02', returnDate: '2026-03-05', status: 'Completed', total: 525, addons: ['Child Seat','Full Insurance'], promo: '', insurance: 'Full' },
+  { id: 'BK10233', userId: 'u2', carId: 'car6', companyId: 'c3', pickupBranchId: 'b11', dropoffBranchId: 'b13', pickupDate: '2026-04-08', returnDate: '2026-04-15', status: 'Active', total: 1015, addons: ['Extra Driver'], promo: '', insurance: 'Basic' },
+  { id: 'BK10234', userId: 'u3', carId: 'car2', companyId: 'c1', pickupBranchId: 'b2', dropoffBranchId: 'b2', pickupDate: '2026-04-09', returnDate: '2026-04-11', status: 'Upcoming', total: 156, addons: [], promo: '', insurance: 'Basic' },
+  { id: 'BK10235', userId: 'u4', carId: 'car7', companyId: 'c2', pickupBranchId: 'b8', dropoffBranchId: 'b10', pickupDate: '2026-02-19', returnDate: '2026-02-22', status: 'Cancelled', total: 66, addons: [], promo: '', insurance: 'None' },
+  { id: 'BK10236', userId: 'u2', carId: 'car9', companyId: 'c5', pickupBranchId: 'b16', dropoffBranchId: 'b18', pickupDate: '2026-04-20', returnDate: '2026-04-24', status: 'Upcoming', total: 232, addons: ['GPS','Child Seat'], promo: 'WELCOME', insurance: 'Basic' },
+  { id: 'BK10237', userId: 'u5', carId: 'car10', companyId: 'c6', pickupBranchId: 'b20', dropoffBranchId: 'b19', pickupDate: '2026-03-20', returnDate: '2026-03-24', status: 'Completed', total: 780, addons: ['Full Insurance'], promo: '', insurance: 'Full' },
+  { id: 'BK10238', userId: 'u1', carId: 'car11', companyId: 'c3', pickupBranchId: 'b12', dropoffBranchId: 'b13', pickupDate: '2026-05-01', returnDate: '2026-05-04', status: 'Upcoming', total: 144, addons: [], promo: '', insurance: 'Basic' }
+]
+
+export const verifications = [
+  { id: 'V001', userId: 'u1', name: 'Sarvar Tursunov', docType: 'Driver License', docNumber: 'AA1234567', status: 'Approved', submitted: '2026-03-22' },
+  { id: 'V002', userId: 'u2', name: 'Aziza Karimova', docType: 'Passport', docNumber: 'P9988776', status: 'Pending', submitted: '2026-04-05' },
+  { id: 'V003', userId: 'u3', name: 'Bekzod Ergashev', docType: 'ID Card', docNumber: 'ID5544332', status: 'Pending', submitted: '2026-04-06' },
+  { id: 'V004', userId: 'u4', name: 'Dilnoza Yusupova', docType: 'Driver License', docNumber: 'DR6677889', status: 'Approved', submitted: '2026-03-30' },
+  { id: 'V005', userId: 'u5', name: 'Jasur Rahimov', docType: 'Passport', docNumber: 'P1122334', status: 'Rejected', submitted: '2026-04-01' }
+]

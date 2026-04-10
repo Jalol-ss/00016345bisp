@@ -1,1 +1,6 @@
-# 00016345bisp
+export default {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {}
+  }
+}
